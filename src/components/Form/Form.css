@@ -1,0 +1,31 @@
+.inputForm {
+    background-color:bisque;
+    width: 600px;
+    height: 500px;
+    padding: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputText {
+    width: 300px;
+    height: 31px;
+    margin-left: 20px;
+}
+
+.titleCheckbox {
+    font-weight: bold;
+}
+
+.labelCheckbox:not(:last-child) {
+    margin-right: 100px;
+}
+
+.formButton {
+    width: 300px;
+    height: 70px;
+    font-size: 25px;
+}
